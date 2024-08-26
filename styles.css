@@ -1,0 +1,59 @@
+body {
+    color: rgb(233, 226, 246);
+    background-color: rgb(0, 0, 7);
+    font-family: "Mukta Malar", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 122px;
+}
+
+header {
+    border-bottom: solid 2px rgb(21, 14, 36);
+    margin: 20px;
+    font-size: 32px;
+}
+
+.chamada {
+    background-color: rgba(23, 14, 27, 0.415);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.categoria-videos {
+    display: flex;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-top: 15px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 180px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(112, 103, 117);
+}
+
+.categoria h2{
+    text-align: center;
+}
